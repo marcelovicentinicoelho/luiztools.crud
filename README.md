@@ -11,24 +11,26 @@
 <ul>
   <li><a href="https://nodejs.org">Node.JS</a></li>
   <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-  <li>Criação da pasta do projeto</li>
   <ul>
-    <li>Inicialização do Node Package Manager (NPM)</li>
+    <li>Criação da pasta do projeto</li>
     <ul>
-      <li>Comando via Terminal: <strong>npm init</strong></li>
-    </ul>
-    <li>Instalação do pacote MySQL</li>
-    <ul>
-      <li>Comando via Terminal: <strong>npm install mysql2</strong></li>
+      <li>Inicialização do Node Package Manager (NPM)</li>
       <ul>
-        <li>Wrapper que dá suporte a Promises</li>
-        <li>Execução mais rápida</li>
-        <li>Utilização de funcionalidades mais modernas do JavaScript e, consequentemente, do NodeJS.</li>
+        <li>Comando via Terminal: <strong>npm init</strong></li>
+      </ul>
+      <li>Instalação do pacote MySQL</li>
+      <ul>
+        <li>Comando via Terminal: <strong>npm install mysql2</strong></li>
+        <ul>
+          <li>Wrapper que dá suporte a Promises</li>
+          <li>Execução mais rápida</li>
+          <li>Utilização de funcionalidades mais modernas do JavaScript e, consequentemente, do NodeJS.</li>
+        </ul>
+      </ul>
+      <li>Execução do projeto</li>
+      <ul>
+        <li>Comando via Terminal: <strong>node index</strong></li>
       </ul>
     </ul>
-    <li>Execução do projeto</li>
-    <ul>
-      <li>Comando via Terminal: <strong>node index</strong></li>
-    </ul>
-  <ul>
+  </ul>
 </ul>
