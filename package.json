@@ -1,7 +1,7 @@
 {
   "name": "crudnodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Projeto</h1>\r <p>\r   Baseado no vídeo de Luiz Duarte, do site Luiz Tools.\r   <a href=\"https://youtu.be/2XBWTEbGw4w\">Clique aqui para assistir!</a>\r </p>\r <br><br>\r <h1>Descrição</h1>\r <p>Back-end para acesso a um banco de dados MySQL hospedado em um servidor na nuvem, simulando as operações básicas de seleção, inserção, atualização e exclusão (CRUD).</p>\r <br><br>\r <h1>Ambiente/Instalação</h1>\r <ul>\r   <li><a href=\"https://nodejs.org\">Node.JS</a></li>\r   <li><a href=\"https://code.visualstudio.com/\">Visual Studio Code</a></li>\r   <ul>\r     <li>Criação da pasta do projeto</li>\r     <ul>\r       <li>Inicialização do Node Package Manager (NPM)</li>\r       <ul>\r         <li>Comando via Terminal: <strong>npm init</strong></li>\r       </ul>\r       <li>Instalação do pacote MySQL</li>\r       <ul>\r         <li>Comando via Terminal: <strong>npm install mysql2</strong></li>\r         <ul>\r           <li>Wrapper que dá suporte a Promises</li>\r           <li>Execução mais rápida</li>\r           <li>Utilização de funcionalidades mais modernas do JavaScript e, consequentemente, do NodeJS.</li>\r         </ul>\r       </ul>\r       <li>Execução do projeto</li>\r       <ul>\r         <li>Comando via Terminal: <strong>node index</strong></li>\r       </ul>\r     </ul>\r   </ul>\r </ul>",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "mysql2": "^2.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelovicentinicoelho/luiztools.crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelovicentinicoelho/luiztools.crud/issues"
+  },
+  "homepage": "https://github.com/marcelovicentinicoelho/luiztools.crud#readme"
 }
