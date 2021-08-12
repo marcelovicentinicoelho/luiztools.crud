@@ -1,10 +1,12 @@
 class Person {
   // Constructor
-  constructor() {}
+  constructor(name) {
+    this._name = this._setName(name);
+  }
 
   // Accessors
   set name(name) {
-    this._name = this._setName(name);
+    this._name = this._setName(name); // Aqui é possível utilizar lógicas, validações, etc.
   }
   get name() {
     return this._name;
@@ -14,7 +16,6 @@ class Person {
   _setName(myValue) {
     return myValue.toUpperCase();
   }
-
   walk() {
     return `${this._name} está andando.`;
   }

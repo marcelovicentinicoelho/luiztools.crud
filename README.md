@@ -2,6 +2,9 @@
 <p>
   Baseado no vídeo de Luiz Duarte, do site Luiz Tools.
   <a href="https://youtu.be/2XBWTEbGw4w">Clique aqui para assistir!</a>
+  <br>
+  No evolutivo, usado o vídeo do canal DPW.
+  <a href="https://youtu.be/keTIirTEdUc">Clique aqui para assistir!</a>
 </p>
 <br><br>
 <h1>Descrição</h1>
